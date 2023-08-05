@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" method="post">
+        <fieldset>
+          <legend>Контактна інформація</legend>
+          <label class="form__inp" for="name">
+            <span>Ім'я*</span>
+            <input type="text" name="name" id="name" required
+          /></label>
+          <label class="form__inp" for="name">
+            <span>Email</span>
+            <input type="email" name="name" id="name" required
+          /></label>
+          <label class="form__inp" for="name">
+            <span>Телефон</span>
+            <input type="tel" name="name" id="name" required
+          /></label>
+          <label for="select_cuntry">В якій країні ви народилися?</label>
+          <select name="select_cuntry" id="select_cuntry">
+            <option>Україна</option>
+            <option>Польша</option>
+            <option>Німетчина</option>
+            <option>Велика Британія</option>
+            <option>Франція</option>
+            <option>Італія</option>
+            <option>Іспанія</option>
+            <option>Португалія</option>
+            <option>Данія</option>
+            <option>Швеція</option>
+          </select>
+          <label for="hobby">Опишіть своє хоббі</label>
+          <textarea id="hobby" resize="none"></textarea>
+          <label> Який вид вашого хоббі?</label>
+          <label class="custom_checkbox">
+            <input class="check_inp" type="checkbox" name="" />
+            <span class="checkbox">✔</span> Активний
+          </label>
+          <label class="custom_checkbox">
+            <input class="check_inp" type="checkbox" name="" />
+            <span class="checkbox">✔</span>Пасивний
+          </label>
+          <label class="custom_checkbox">
+            <input class="check_inp" type="checkbox" name="" />
+            <span class="checkbox">✔</span> Не визначився
+          </label>
+        </fieldset>
+
+        <button class="btn_submit" type="submit">Відправити</button>
+      </form>
+    </div>
+  </body>
+</html>
